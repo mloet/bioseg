@@ -11,3 +11,8 @@ _C.*
 outputs/*
 checkpoints/*.pt
 demo/backend/checkpoints/*.pt
+sav_dataset/
+training/
+notebooks/
+examples/
+assets/
