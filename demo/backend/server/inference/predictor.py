@@ -49,7 +49,8 @@ class InferenceAPI:
         self.score_thresh = 0
 
         if MODEL_SIZE == "tiny":
-            checkpoint = Path(APP_ROOT) / "checkpoints/sam2.1_hiera_tiny.pt"
+            checkpoint = Path(APP_ROOT) / "checkpoints/MedSAM2_US_Heart.pt"
+            # checkpoint = Path(APP_ROOT) / "checkpoints/sam2.1_hiera_tiny.pt"
             model_cfg = "configs/sam2.1/sam2.1_hiera_t.yaml"
         elif MODEL_SIZE == "small":
             checkpoint = Path(APP_ROOT) / "checkpoints/sam2.1_hiera_small.pt"
